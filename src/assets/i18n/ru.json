@@ -1,0 +1,20 @@
+{
+  "contact-page": {
+    "site-name": "Contact page"
+  },
+  "home": {
+    "site-name": "Мультиязычное приложение",
+    "add-user": "Добавление пользователя",
+    "conditions": "Условия использования сервиса",
+    "conditions-label": "Условия",
+    "email": "Емайл",
+    "mobile": "Мобильный",
+    "name": "Имя",
+    "name-required": "Необходимо ввести имя",
+    "password": "Пароль"
+  },
+  "shared": {
+    "cancel": "Cancel",
+    "submit": "Submit"
+  }
+}

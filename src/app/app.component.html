@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container">
+    <a href="#" class="navbar-brand">{{'home.site-name' | translate}}</a>
+  </div>
+  <span class="form-inline">
+    <select #selectedLanguage (change)="switchLanguage(selectedLanguage.value)" class="form-control">
+      <option *ngFor = "let language of translate.getLangs()" [value]="language" [selected] = "language === translate.currentLang">
+        {{language}}
+      </option>
+    </select>
+  </span>
+</nav>
+<div class="container">
+  <form action="">
+    <h2>{{'home.add-user' | translate}}</h2>
+    <div class="form-group">
+      <label for="name">{{'home.name' | translate}}</label>
+      <input type="text" class="form-control" name = "name">
+      <small *ngIf="true" class="text-danger">{{'home.name-required' | translate}}</small>
+    </div>
+    <div class="form-group">
+      <label for="email">{{'home.email' | translate}}</label>
+      <input type="email" class="form-control" name = "email">
+    </div>
+    <div class="form-group">
+      <label for="mobile">{{'home.mobile' | translate}}</label>
+      <input type="tel" class="form-control" name = "mobile">
+    </div>
+    <div class="form-group">
+      <label for="password">{{'home.password' | translate}}</label>
+      <input type="password" class="form-control" name = "password">
+    </div>
+    <div class="form-group form-check">
+      <label for="conditions">{{'home.conditions-label' | translate}}</label><br>
+      <input type="checkbox" name="conditions" class="form-check-input">
+      <label for="" class="form-check-label">&nbsp;{{'home.conditions' | translate}}</label>
+    </div>
+    <button class="btn btn-block btn-primary">{{'shared.submit' | translate}}</button>
+  </form>
+</div>

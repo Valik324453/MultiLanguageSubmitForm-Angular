@@ -1,0 +1,20 @@
+{
+  "contact-page": {
+    "site-name": "Contact page"
+  },
+  "home": {
+    "add-user": "Adduser form",
+    "conditions": "Conditions of using service",
+    "conditions-label": "Conditions",
+    "email": "User email",
+    "mobile": "Mobile",
+    "name": "Name",
+    "name-required": "Name is required",
+    "password": "Password",
+    "site-name": "Multi language App"
+  },
+  "shared": {
+    "cancel": "Cancel",
+    "submit": "Submit"
+  }
+}
